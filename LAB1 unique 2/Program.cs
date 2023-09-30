@@ -22,7 +22,7 @@
         Console.WriteLine("экспонента = " + exponent);
 
         // Вычисляем квадрат тангенса
-        double tangentSquared = Math.Pow(Math.Tan(z + 1), 2);
+        double tangentSquared = Math.Pow(Math.Pow(Math.Tan(z), 2) + 1, x);
         Console.WriteLine("Тангенс = " + tangentSquared);
 
         // Вычисляем значение выражения u
